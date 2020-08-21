@@ -7,6 +7,10 @@ You may need access to the Firebase console to see what the database looks like,
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### How to view
+
+I've deployed the app here: [Demo](https://klipfolio-assignment.vercel.app/) but you can also deploy it yourself.
+
 ### `npm run start`
 
 Runs the app in the development mode.<br />
