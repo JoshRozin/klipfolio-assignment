@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import NavBar from "./components/layout/navbar";
+import Metrics from "./components/assetshowcases/metrics";
+import Services from "./components/assetshowcases/services";
+import ModeledData from "./components/assetshowcases/modeled-data";
+import AuthenticateOnRefresh from "./components/authentication/authenticateOnRefresh";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<AuthenticateOnRefresh />
+			<NavBar></NavBar>
+			<Metrics></Metrics>
+			<Services></Services>
+			<ModeledData></ModeledData>
+		</div>
+	);
 }
 
 export default App;

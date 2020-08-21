@@ -1,0 +1,9 @@
+// Data reducer types
+export const LOADING_METRICS = "LOADING_METRICS";
+export const SET_METRICS = "SET_METRICS";
+
+export const LOADING_SERVICES = "LOADING_SERVICES";
+export const SET_SERVICES = "SET_SERVICES";
+
+export const LOADING_MODELLED_DATA = "LOADING_MODELLED_DATA";
+export const SET_MODELLED_DATA = "SET_MODELLED_DATA";
