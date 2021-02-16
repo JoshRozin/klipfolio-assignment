@@ -1,7 +1,7 @@
 This app was created as an assignment for [Klipfolio](https://www.klipfolio.com).
 
 The app displays a very basic and fundamental knowledge of React, Redux, NoSQL data modelling (Using Firebase), Express.js (Using Firebase),
-REST API's, React Hooks, Git, Authorization using tokens, Pagination, Search (Using Algolia), and Data Visualization using D3.
+REST API's, React Hooks, Git, Authorization using tokens, Pagination, Search (Using Algolia), and Data Visualization using VX.
 
 You may need access to the Firebase console to see what the database looks like, if so, shoot me an email!
 
